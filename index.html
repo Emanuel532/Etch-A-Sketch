@@ -6,11 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer ></script>
+    <script type="text/javascript" src="html2canvas.js"></script>
+    <script type="module" src="script.js" defer ></script>
 </head>
 <body>
-    <div class="container">
-
+    <div class="toolbox">
+        <button id="clear">CLEAR</button>
+        <button id="trace">TRACE</button>
+        <button id="rainbow">RAINBOW</button>
+        <button id="eraser">ERASER</button>
+        <button id="grid">GRID</button>
     </div>
+
+    <div id ="drawing" class="container blackboard">
+        <h1 style="color:white; text-align: center;">Select your grid size first!</h1>
+    </div>
+
 </body>
 </html>
